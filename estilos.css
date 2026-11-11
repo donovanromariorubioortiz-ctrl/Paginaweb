@@ -1,0 +1,83 @@
+  * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body { background: #0a0a0a; color: white; }
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://img.youtube.com/vi/QqdAAH5UUmU/hqdefault.jpg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+.hero h1 {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffcccc;
+  font-size: 40px;
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+.hero .intro {
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.linea { width: 200px; height: 2px; background: white; margin: 10px 0; }
+
+.boton-inicia {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #3d0f0f;
+  padding: 25px 60px;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffe4b5;
+  letter-spacing: 3px;
+}
+
+/* Páginas 2 y 3 */
+.pagina-roja {
+  background: #4a0e0e;
+  min-height: 100vh;
+  display: flex;
+  padding: 60px;
+}
+.pagina-oscura {
+  background-image: url('https://i.pinimg.com/736x/c2/73/da/c273dafefcb58ca0c0dd8302ff4ff78e.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  padding: 60px;
+}
+.texto-izq { width: 40%; }
+.imagen-der { width: 60%; }
+.imagen-der img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
+
+header { background: rgba(0,0,0,0.6); padding: 10px; display: flex; justify-content: space-between; }
+header a { color: white; text-decoration: none; margin: 0 10px; }
+
+.formulario { background: #1a0a0a; padding: 40px; width: 50%; margin: 50px auto; border-radius: 10px; }
+input, textarea { width: 100%; padding: 12px; margin: 10px 0; background: #2a1a1a; border: none; color: white; }
+footer {
+  background: #000;
+  color: #ffcccc;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-top: 2px solid #8b0000;
+}
+footer b {
+  color: white;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
